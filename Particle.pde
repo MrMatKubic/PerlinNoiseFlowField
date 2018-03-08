@@ -47,7 +47,7 @@ class Particle {
   public void show()
   {
     pushMatrix();
-    stroke(0, 30);
+    stroke(0, 25);
     strokeWeight(1);
     
     line(this.loc.x, this.loc.y, this.prev.x - 2, this.prev.y - 2);

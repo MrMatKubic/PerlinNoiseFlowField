@@ -31,8 +31,8 @@ void draw()
     float yoff = 0;
     for(int x = 0; x < cols; x++)
     {      
-      PVector vector = PVector.fromAngle(noise(xoff, yoff, zoff) * TWO_PI * 5);
-      vector.setMag(0.5);
+      PVector vector = PVector.fromAngle(noise(xoff, yoff, zoff) * TWO_PI * 4);
+      vector.setMag(0.6);
       this.vectors[x][y] = vector;
       
      /* pushMatrix();
